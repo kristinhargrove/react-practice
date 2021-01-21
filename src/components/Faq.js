@@ -19,7 +19,7 @@ const faqs = [
     },
 ];
 
-export default (props) => (
+const Faq = (props) => (
     <>
      {
         faqs.map((faq) => (
@@ -31,3 +31,5 @@ export default (props) => (
         }      
     </>
 )
+
+export default Faq;

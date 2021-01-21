@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default (props) => (
+const Home = (props) => (
     <>
         <body>
             <h2 style= {{ margin : 25, textAlign : "center", color: "purple" }}>Kristin's Blog</h2><br />
@@ -9,3 +9,5 @@ export default (props) => (
         </body>
     </>
 )
+
+export default Home;

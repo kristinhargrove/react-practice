@@ -15,7 +15,7 @@ const blogPosts = [
     },
 ];
 
-export default (props) => (
+const Blog = (props) => (
     <>
      {
         blogPosts.map((post) => (
@@ -26,4 +26,6 @@ export default (props) => (
             ))
         }      
     </>
-)
+);
+
+export default Blog;

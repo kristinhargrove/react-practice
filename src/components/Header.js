@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 
 
-export default (props) => (
+const Header = (props) => (
     <>
         <header style = {{ backgroundColor : "lightgray", display: "flex",
         justifyContent: "space-between", alignItems: "center" }}>
@@ -17,3 +17,5 @@ export default (props) => (
         </header>
     </>
 )
+
+export default Header;
