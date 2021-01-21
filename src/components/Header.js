@@ -1,5 +1,7 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav'
+import {
+    Link,
+} from 'react-router-dom';
 
 
 export default (props) => (
@@ -8,9 +10,9 @@ export default (props) => (
         justifyContent: "space-between", alignItems: "center" }}>
         <h3 style = {{ textAlign : "left", padding: 10  }}>header</h3>
             <nav style = {{ textAlign : "right" }}>
-                <a href="#home" style = {{padding: 10}}>home</a>
-                <a href="#feed" style = {{padding: 10}}>feed</a>
-                <a href="#faq" style = {{padding: 10}}>faq</a>
+                <Link to="/" style = {{padding: 10}}>home</Link>
+                <Link to="/blog" style = {{padding: 10}}>blog</Link>
+                <Link to="/faqs" style = {{padding: 10}}>faq</Link>
             </nav>
         </header>
     </>
